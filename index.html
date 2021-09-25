@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<body>
+ <head>
+ 
+ <meta charset="utf-8">
+
+
+ <style>
+.bubbles {
+  stroke-width: 2px;
+  stroke: white;
+}
+.bubbles:hover {
+  stroke: black;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 120px;					
+    height: 80px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
+
+
+
+ </head>
+ <!-- Add 2 buttons-->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://d3js.org/d3.v4.min.js">
+</script>
+
+
+<button type="button" onclick="vaihdaluku('onn')">Kaikki onnettomuudet</button>
+<button type="button" onClick= "vaihdaluku('onnkvl')">Onnettomuudet suhteessa liikennemäärään</button>
+
+
+
+
+<div class="infobox">
+
+  <h3 class="title">Kunta</h3>
+
+  <p>Onnettomuuksien määrä: <strong class="published">sales</strong></p>
+</div>
+
+
+
+  	<div id="chart"></div> 
+
+	<script src="bubbles.js">
+	</script>
+
+
+
+	
+	 </body>
+	</html>
