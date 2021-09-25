@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 # HTML
 ```HTML
-<div align="center">
+<div>
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
