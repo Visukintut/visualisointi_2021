@@ -27,7 +27,7 @@ Syntax highlighted code block
 
 ```
 ```markdown
-<div id='chart'>
+<div id="element"></div>
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
