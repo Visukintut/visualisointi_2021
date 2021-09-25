@@ -26,8 +26,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 
 ```
-```markdown
-<div id="element"></div>
+
+<div id="element">
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
