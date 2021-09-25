@@ -29,7 +29,7 @@ Syntax highlighted code block
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <!-- Create a div where the graph will take place -->
-<div id="my_dataviz">
+<div align="center">
 <script>
 
 
