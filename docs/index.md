@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 
 ```
-'''markdown
+```markdown
 <div id='chart'>
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
@@ -89,7 +89,7 @@ svg.selectAll("mybar")
 </div>
 
 
-'''
+```
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
