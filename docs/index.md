@@ -29,7 +29,7 @@ Syntax highlighted code block
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
+<div id="my_dataviz">
 <script>
 
 
@@ -83,7 +83,7 @@ svg.selectAll("mybar")
 })
 
 </script>
-
+</div>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
