@@ -4,26 +4,14 @@ Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihacka
 
 Joukkueemme visualisoi kokeellisista tilastoista Riistaonnettomuustilaston luvut hiukan normaalista poiketen karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa ja Pythonin matplotlib-kirjastoa. Kuvioissa on käytetty Tilastokeskuksen värejä. 
 
-### Markdown
+### Selvitä alta mihin eläimeen törmätään eniten kunnittain?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Kuvion tiedot perustuvat [riistaonnettomuustilaston](https://www.stat.fi/tup/kokeelliset-tilastot/riistaonnettomuudet/2020/index.html) vuoden 2020 kunnittaisiin tietoihin, jotka on poimittu tilaston tietokantataulukoista.
 
-```markdown
-Syntax highlighted code block
+Tilasto sisältää tietoja valkohäntäpeurojen, metsäkauriiden, hirvien, metsäpeurojen, kuusipeurojen ja villisikojen kanssa ajetuista kolareista. Katso alla olevasta kuviosta miten eniten kolareita aiheuttaneet eläimet jakautuvat kunnittain. Alla on mallikuvat eläimistä tunnistamisen helpottamiseksi. Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eläimen kuva paljastuu. Saat samalla lisätietoa kunnassa vuoden 2020 aikana tapahtuneista onnettomuuksista ja niitä aiheuttaneista eläimistä.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+ ![Image](src)
 
 ```
 
