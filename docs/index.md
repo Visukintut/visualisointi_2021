@@ -49,7 +49,7 @@ div.tooltip {
 
 
 
- </head>
+
  <!-- Add 2 buttons-->
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://d3js.org/d3.v4.min.js">
