@@ -31,9 +31,7 @@ Syntax highlighted code block
 
 
  <style>
-.graph-svg-component {
-    background-color: AliceBlue;
-}
+
 
 div.tooltip {	
     position: absolute;			
@@ -365,8 +363,9 @@ div.tooltip {
 {id:'i292', name: 'Ähtäri', onn:18, onnkvl:29.1734197730956, xk:324.046934013887, yk:485.444435715287, maakunta: '14' ,kuva: kuvat/metsakauris.png?raw=true' ,kaavio: 'kaaviot/Ähtäri.png' },
 {id:'i293', name: 'Äänekoski', onn:38, onnkvl:19.5372750642674, xk:380.408452655138, yk:478.849419871903, maakunta: '13' ,kuva: kuvat/metsakauris.png?raw=true' ,kaavio: 'kaaviot/Äänekoski.png' }
 
+
 							
-	];
+];
 
 
 //määritellään tooltippi
