@@ -490,12 +490,12 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		  .html(d.name + "<br> Onnettomuuksia yhteensä:" + d.onn + "<br> Onnettomuuksia suhteessa liikennemäärään:" + Math.round(d.onnkvl * 10) / 10 
 		  +"<br> <br> <img src='"+d.kaavio+"' alt='testikuva' width='375' height='299'></img>")
 		  .style("left", (d3.mouse(this)[0]+10) + "px")
-		  .style("top", (d3.mouse(this)[1]+10) + "px")
+		  .style("top", (d3.mouse(this)[1]+100) + "px")
 	  }
 	  var moveTooltip = function(d) {
 		tooltip
 		  .style("left", (d3.mouse(this)[0]+10) + "px")
-		  .style("top", (d3.mouse(this)[1]+10) + "px")
+		  .style("top", (d3.mouse(this)[1]+100) + "px")
 	  }
 	  var hideTooltip = function(d) {
 		tooltip
