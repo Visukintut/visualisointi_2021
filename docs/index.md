@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Visualisointihackathon 15.9.2021-30.9.2021
 
 You can use the [editor on GitHub](https://github.com/Visukintut/visualisointi_2021/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
