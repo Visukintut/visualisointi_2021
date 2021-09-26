@@ -619,8 +619,7 @@ function vaihdaluku(color){
 
 </script>
 </div>
-```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
 
 
 ### Visukintut-joukkue
