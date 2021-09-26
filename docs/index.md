@@ -57,8 +57,7 @@ div.tooltip {
 
 
 
-
-  	<div id="chart"></div> 
+<div> 
 
 
 
