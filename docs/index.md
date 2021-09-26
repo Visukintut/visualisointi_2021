@@ -624,4 +624,7 @@ function vaihdaluku(color){
 
 ### Visukintut-joukkue
 
-Joukkueeseen kuuluu Matti Kokkonen, Yhteiskuntatilasto, Katja Löytynoja, Digitalisaatiopalvelut ja Mervi Niemi, Taloustilastot
+Joukkueeseen kuuluuvat seuraavat henkilöt: 
+* Matti Kokkonen, Yhteiskuntatilastot 
+* Katja Löytynoja, Digitalisaatiopalvelut
+* Mervi Niemi, Taloustilastot
