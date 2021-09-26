@@ -459,14 +459,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		return radiusScale(d.value)+1;
 	}))
 
-	var tooltip = d3.select("#chart")
-      .append("div")
-      .style("opacity", 0)
-      .attr("class", "tooltip")
-      .style("background-color", "#ea7404")
-      .style("border-radius", "10px")
-      .style("padding", "10px")
-      .style("color", "black")
+
 
 
 	var showTooltip = function(d) {
