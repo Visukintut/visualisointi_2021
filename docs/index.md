@@ -34,7 +34,7 @@ Syntax highlighted code block
 
 
 div.tooltip {	
-    position: absolute;			
+    position: relative;			
     text-align: left;			
     width: 380px;					
     height: 389px;					
