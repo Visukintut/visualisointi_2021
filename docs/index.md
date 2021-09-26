@@ -54,8 +54,8 @@ div.tooltip {
 <script>
 
 //(function test () {
-	var width = 700,
-	height=700;
+	var width = 900,
+	height=900;
 //data
 	var data = [
 {id:'i1', name: 'Akaa', onn:160, onnkvl:66.3625051845707, xk:303.238349769901, yk:571.846271456827, maakunta: '06' ,kuva: 'kuvat/valkohantapeura.png?raw=true' ,kaavio: 'kaaviot/Akaa.png' },
@@ -475,15 +475,15 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		  .duration(200)
 		tooltip
 		  .style("opacity", 1)
-		  .html(d.name + "<br> Onnettomuuksia yhteensä:" + d.onn + "<br> Onnettomuuksia suhteessa liikennemäärään:" + Math.round(d.onnkvl * 10) / 10 
+		  .html(d.name + "<br> Onnettomuuksia yhteensä: " + d.onn + "<br> Onnettomuuksia suhteessa liikennemäärään: " + Math.round(d.onnkvl * 10) / 10 
 		  +"<br> <br> <img src='"+d.kaavio+"' alt='testikuva' width='375' height='299'></img>")
 		  .style("left", (d3.mouse(this)[0]+10) + "px")
-		  .style("top", (d3.mouse(this)[1]+100) + "px")
+		  .style("top", (d3.mouse(this)[1]+10) + "px")
 	  }
 	  var moveTooltip = function(d) {
 		tooltip
 		  .style("left", (d3.mouse(this)[0]+10) + "px")
-		  .style("top", (d3.mouse(this)[1]+100) + "px")
+		  .style("top", (d3.mouse(this)[1]+10) + "px")
 	  }
 	  var hideTooltip = function(d) {
 		tooltip
