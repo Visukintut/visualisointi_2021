@@ -35,7 +35,7 @@ Syntax highlighted code block
 
 div.tooltip {	
     position: absolute;			
-    text-align: center;			
+    text-align: left;			
     width: 380px;					
     height: 389px;					
     padding: 2px;				
@@ -66,8 +66,8 @@ div.tooltip {
 <script>
 
 //(function test () {
-	var width = 1000,
-	height=1000;
+	var width = 900,
+	height=900;
 //data
 	var data = [
 		{id:'i1', name: 'Akaa', onn:160, onnkvl:66.3625051845707, xk:253.238349769901, yk:571.846271456827, maakunta: '06' ,kuva: 'kuvat/valkohantapeura.png?raw=true' ,kaavio: 'kaaviot/Akaa.png' },
