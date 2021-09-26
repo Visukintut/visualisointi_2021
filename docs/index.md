@@ -60,8 +60,7 @@ div.tooltip {
 
   	<div id="chart"></div> 
 
-	<script src="bubbles.js">
-	</script>
+
 
 
 
