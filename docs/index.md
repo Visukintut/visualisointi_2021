@@ -2,7 +2,7 @@
 
 Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen TIlastokeskuksen kokeellisiin tilastoihin.
 
-Joukkueemme visualisoi kokeellisista tilastoista Riistaonnettomuustilaston luvut hiukan normaalista poiketen karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa ja Pythonin matplotlib-kirjastoa. Kuvioissa on käytetty Tilastokeskuksen värejä. 
+Joukkueemme visualisoi kokeellisista tilastoista Riistaonnettomuustilaston luvut hiukan normaalista poiketen karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa ja Pythonin matplotlib-kirjastoa.
 
 ### Selvitä alta mihin eläimeen törmätään eniten kunnittain?
 
