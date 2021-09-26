@@ -36,8 +36,8 @@ Syntax highlighted code block
 div.tooltip {	
     position: absolute;			
     text-align: center;			
-    width: 200px;					
-    height: 80px;					
+    width: 380px;					
+    height: 389px;					
     padding: 2px;				
     font: 14px sans-serif;		
     background: black;	
