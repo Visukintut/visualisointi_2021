@@ -13,7 +13,7 @@ Tilasto sisältää tietoja valkohäntäpeurojen, metsäkauriiden, hirvien, mets
 
  ![Osalliset eläinlajit](kokoelma.jpg)
 
-```
+
 
  <meta charset="utf-8">
 
@@ -622,10 +622,7 @@ function vaihdaluku(color){
 ```
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Visukintut/visualisointi_2021/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Visukintut-joukkue
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Joukkueeseen kuuluu Matti Kokkonen, Yhteiskuntatilasto, Katja Löytynoja, Digitalisaatiopalvelut ja Mervi Niemi, Taloustilastot
