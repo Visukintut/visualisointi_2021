@@ -1,8 +1,8 @@
-## Visualisointihackathon 15.9.2021-30.9.2021
+## Tilastokeskuksen Visualisointihackathon 15.9.2021 - 30.9.2021
 
-You can use the [editor on GitHub](https://github.com/Visukintut/visualisointi_2021/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen TIlastokeskuksen kokeellisiin tilastoihin.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Joukkueemme visualisoi kokeellisista tilastoista Riistaonnettomuustilaston luvut hiukan normaalista poiketen karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa ja Pythonin matplotlib-kirjastoa. Kuvioissa on käytetty Tilastokeskuksen värejä. 
 
 ### Markdown
 
@@ -361,8 +361,7 @@ div.tooltip {
 {id:'i290', name: 'Ylöjärvi', onn:56, onnkvl:32.3699421965318, xk:297.008017803333, yk:530.801647356836, maakunta: '06' ,kuva: 'kuvat/metsakauris.png?raw=true' ,kaavio: 'kaaviot/Ylöjärvi.png' },
 {id:'i291', name: 'Ypäjä', onn:21, onnkvl:25.4854368932039, xk:284.510422245742, yk:591.696773640371, maakunta: '05' ,kuva: 'kuvat/valkohantapeura.png?raw=true' ,kaavio: 'kaaviot/Ypäjä.png' },
 {id:'i292', name: 'Ähtäri', onn:18, onnkvl:29.1734197730956, xk:324.046934013887, yk:485.444435715287, maakunta: '14' ,kuva: 'kuvat/metsakauris.png?raw=true' ,kaavio: 'kaaviot/Ähtäri.png' },
-{id:'i293', name: 'Äänekoski', onn:38, onnkvl:19.5372750642674, xk:380.408452655138, yk:478.849419871903, maakunta: '13' ,kuva: 'kuvat/metsakauris.png?raw=true' ,kaavio: 'kaaviot/Äänekoski.png' },
-![image](https://user-images.githubusercontent.com/91378928/134814430-1a9d37a0-ce5d-4c4d-89ab-1f513edc5b15.png)
+{id:'i293', name: 'Äänekoski', onn:38, onnkvl:19.5372750642674, xk:380.408452655138, yk:478.849419871903, maakunta: '13' ,kuva: 'kuvat/metsakauris.png?raw=true' ,kaavio: 'kaaviot/Äänekoski.png' }
 
 
 
