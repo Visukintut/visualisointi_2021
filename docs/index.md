@@ -36,12 +36,12 @@ Syntax highlighted code block
 div.tooltip {	
     position: absolute;			
     text-align: center;			
-    width: 120px;					
+    width: 200px;					
     height: 80px;					
     padding: 2px;				
-    font: 12px sans-serif;		
-    background: lightsteelblue;	
-    border: 0px;		
+    font: 14px sans-serif;		
+    background: black;	
+    border: 2px;		
     border-radius: 8px;			
     pointer-events: none;			
 }
