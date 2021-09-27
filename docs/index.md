@@ -470,7 +470,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
       .style("color", "black")
 
 	var showTooltip = function(d) {
-	var matrix = this.getScreenCTM()
+	
 		tooltip
 		  .transition()
 		  .duration(200)
@@ -478,25 +478,20 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		  .style("opacity", 1)
 		  .html(d.name + "<br> Onnettomuuksia yhteensä: " + d.onn + "<br> Onnettomuuksia suhteessa liikennemäärään: " + Math.round(d.onnkvl * 10) / 10 
 		  +"<br> <br> <img src='"+d.kaavio+"' alt='testikuva' width='375' height='299'></img>")
-	    
-        .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
-		  //.style("left", (d3.mouse(this)[0]+10) + "px")
-		  //.style("top", (d3.mouse(this)[1]-300) + "px")
-	tooltip
-		 .style("left", (window.pageXOffset + matrix.e + 15) + "px")
-        	.style("top", (window.pageYOffset + matrix.f - 30) + "px");
+	       
+		.style("left", (d3.mouse(this)[0]+10) + "px")
+		.style("top", (d3.mouse(this)[1]-300) + "px")
+
 		  
 	  }
 	  var moveTooltip = function(d) {
-	var matrix = this.getScreenCTM()
+
 		tooltip
 	    
         	.translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
-		  //.style("left", (d3.mouse(this)[0]+10) + "px")
-		  //.style("top", (d3.mouse(this)[1]-300) + "px")
-	tooltip
-	        .style("left", (window.pageXOffset + matrix.e + 15) + "px")
-        .style("top", (window.pageYOffset + matrix.f - 30) + "px");
+		  .style("left", (d3.mouse(this)[0]+10) + "px")
+		  .style("top", (d3.mouse(this)[1]-300) + "px")
+
 })
 		  
 	  }
