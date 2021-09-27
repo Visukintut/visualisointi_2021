@@ -38,8 +38,8 @@ div.tooltip {
 	 /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: -5px;
-  right: 105%;
+  top: 100%;
+  left: 50%;
 }
 </style>
 
