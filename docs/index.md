@@ -478,8 +478,8 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		  .duration(200)
 		tooltip
 		  .style("opacity", 1)
-		  .html(d.name + "<br> Onnettomuuksia yhteensä: " + d.onn + "<br> Onnettomuuksia suhteessa liikennesuoritteeseen: " + Math.round(d.onnkvl * 10) / 10 (onnettomuutta / 100 000 ajettua kilometriä kohden) 
-		  +"<br> <br> <img src='"+d.kaavio+"' alt='d.altt' width='375' height='299'></img>")
+		  .html(d.name + "<br> Onnettomuuksia yhteensä: " + d.onn + "<br> Onnettomuuksia suhteessa liikennesuoritteeseen: " + Math.round(d.onnkvl * 10) / 10 + 				  "(onnettomuutta / 100 000 ajettua kilometriä kohden)  
+		  <br> <br> <img src='"+d.kaavio+"' alt='d.altt' width='375' height='299'></img>")
 	       
 		.style("left", (d3.mouse(this)[0]+100) + "px")
 		.style("top", (d3.mouse(this)[1]+350) + "px")
