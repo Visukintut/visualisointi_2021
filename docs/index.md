@@ -36,11 +36,7 @@ div.tooltip {
     border: 2px;		
     border-radius: 8px;			
     pointer-events: none;
-	 /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
+
 }
 </style>
 
@@ -488,10 +484,10 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		  .html(d.name + "<br> Onnettomuuksia yhteensä: " + d.onn + "<br> Onnettomuuksia suhteessa liikennemäärään: " + Math.round(d.onnkvl * 10) / 10 
 		  +"<br> <br> <img src='"+d.kaavio+"' alt='testikuva' width='375' height='299'></img>")
 	       
-		.style("left", (d3.mouse(this)[1]+10) + "px")
-		.style("top", (d3.mouse(this)[0]-300) + "px")
+		.style("left", (d3.mouse(this)[0]+10) + "px")
+		.style("top", (d3.mouse(this)[1]+10) + "px")
 		//.style("left", (d3.mouse(this)[0]+10) + "px")
-		//.style("top", (d3.mouse(this)[1]-300) + "px")
+		//.style("top", (d3.mouse(this)[1]+10) + "px")
 
 		  
 	  }
@@ -500,8 +496,8 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		tooltip
 	    
         
-		 .style("left", (d3.mouse(this)[1]+10) + "px")
-		 .style("top", (d3.mouse(this)[0]-300) + "px")
+		 .style("left", (d3.mouse(this)[0]+10) + "px")
+		 .style("top", (d3.mouse(this)[1]+10) + "px")
 
 
 		  
