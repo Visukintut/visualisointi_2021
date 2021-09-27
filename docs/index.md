@@ -659,8 +659,6 @@ Lisäksi oli kolme kuntaa, joissa ei tapahtunut ollenkaan riistaonnettomuuksia v
 
 ### kilpailytyön työstäminen
 
-Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin.
-
 Lopullisen visualisointityön erityinen ansio on se että visualisoinnista on mahdollista saada valtava määrä informaatiota lyhyessä ajassa. Kuvioon on lisätty Kuvat eläimistä, jotka koukuttavat pelillisen kalenteriluukujenavaamis-elemntin kautta katsoja etsimään tarkempaa informaatiota ilmiöstä, jota tarjotaan myös itse visualisoinnisa. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Kuvio antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa:
 
 * Volyymit
@@ -673,7 +671,9 @@ Lopullisen visualisointityön erityinen ansio on se että visualisoinnista on ma
 
 Olemme kuvanneet visualisoinnin pääsisällön sanallisesti, kaikkiin kuviin on lisätty alt-tekstit ja visualisointi on tehty kokonaan Javascriptillä, joten saavutettavuuskorjaukset voidaan toteuttaa asiantuntijoiden avulla.
 
-### Visukintut-joukkue
+### Visukintut-joukkue ja joukkueen työskentely
+
+Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin.
 
 Joukkueeseen kuuluuvat seuraavat henkilöt: 
 
