@@ -14,7 +14,7 @@ Tilasto sisältää tietoja valkohäntäpeurojen, metsäkauriiden, hirvien, mets
  ![Osalliset eläinlajit](kokoelma.jpg)
 
 Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eläimen kuva paljastuu. Saat samalla lisätietoa kunnassa vuoden 2020 aikana tapahtuneista onnettomuuksista ja niitä aiheuttaneista eläimistä.
-
+<body>
  <meta charset="utf-8">
 
 
@@ -42,7 +42,7 @@ div.tooltip {
 
 <script src="https://d3js.org/d3.v4.min.js">
 </script>
-<div id="tooltip">
+
 
 
 <div id="chart"> 
@@ -623,8 +623,8 @@ function vaihdaluku(color){
 
 </script>
 </div>
-</div>
 
+</body>
 
 ### Visukintut-joukkue
 
