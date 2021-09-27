@@ -643,7 +643,7 @@ function vaihdaluku(color){
 </body>
 ### Riistaonnettomuudet Manner-Suomessa vuonna 2020
 
-Onnettomuudet on sijoitettu kuntien keskipisteisiin ja pallojen koko skaalautuu onnettomuuksien määrän mukaan. Pallot työntävät toisiaan asetetuista keskipisteistä poispäin ja lopulta löytyy tasapaino. Kuvasta nähdään että alueellisesti tarkastellen suurin osa riistaonnettomuuksista vuonna 2020 tapahtui Varsinais-Suomessa, Uudellamaalla ja Pirkanmaalla. Näissä maakunnissa tapahtui yli puolet kaikista riistaonnettomuuksista. Itä- ja Pohjois-Suomessa ovat pieniä verrattuna Lounais- ja Etelä-Suomen onnettomuuksiin.
+Onnettomuudet on sijoitettu kuntien keskipisteisiin ja pallojen koko skaalautuu onnettomuuksien määrän mukaan. Pallot työntävät toisiaan asetetuista keskipisteistä poispäin ja lopulta löytyy tasapaino. Kuvasta nähdään että alueellisesti tarkastellen suurin osa riistaonnettomuuksista vuonna 2020 tapahtui Varsinais-Suomessa, Uudellamaalla ja Pirkanmaalla. Näissä maakunnissa tapahtui yli puolet kaikista riistaonnettomuuksista. Onnettomuuksien määrät Itä- ja Pohjois-Suomessa ovat pieniä verrattuna Lounais- ja Etelä-Suomen onnettomuusmääriin.
 
 Manner-Suomessa tapahtui vuonna 2020 yhteensä 14 004 riistaonnettomuutta. Valkohäntäpeurojen kanssa ajettiin 7 525 kolarit edustivat puolta kaikista onnettomuuksista. Toiseksi eniten kolaroitiin metsäkauriiden kanssa, 5 094 kertaa. Hirvionnettomuuksia tapahtui 1 527 kappaletta.  Metsäpeura-, villisika- ja kuusipeurakolareita tapahtui vuonna 2020 yhteensä 131 kappaletta.
 
@@ -657,15 +657,15 @@ Vaikka valkohäntäpeuraonnettomuuksia tapahtuu eniten on metsäkauris silti use
 
 Lisäksi oli kolme kuntaa, joissa ei tapahtunut ollenkaan riistaonnettomuuksia vuonna 2020.
 
-### kilpailytyön työstäminen
+### Kontribuutio ja työn vaikuttavuus
 
-Lopullisen visualisointityön erityinen ansio on se että visualisoinnista on mahdollista saada valtava määrä informaatiota lyhyessä ajassa. Kuvioon on lisätty Kuvat eläimistä, jotka koukuttavat pelillisen kalenteriluukujenavaamis-elemntin kautta katsoja etsimään tarkempaa informaatiota ilmiöstä, jota tarjotaan myös itse visualisoinnisa. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Kuvio antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa:
-
-* Volyymit
-* Sijainnit
+Joukkueen mielestä työn erityinen ansio on helppolukuisuus: visualisoinnista on mahdollista saada valtava määrä informaatiota lyhyessä ajassa. Kuvioon lisätyt kuvat eläimistä koukuttavat pelillisen kalenteriluukujenavaamis-elemntin kautta katsoja etsimään ilmiöstä tarkempaa informaatiota, jota tarjotaan erikseen avautuvassa selittävässä tekstikentässä. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Visualisointi antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa:
+ 
+* Onnettomuuksien kannalta relevantit riistaeläimet
+* Onnettomuuksien volyymit ja sijainnit
 * Suhteellisen riskin joutua onnettomuuteen eri kunnissa
-* Tietoa populaation levinneisyydestä
-* onnettomuuksien ajallisesta jakaumasta
+* Tietoa populaatioiden levinneisyydestä
+* Tietoa onnettomuuksien ajallisesta jakaumasta
 
 ### Saavutettavuus
 
@@ -673,7 +673,7 @@ Olemme kuvanneet visualisoinnin pääsisällön sanallisesti, kaikkiin kuviin on
 
 ### Visukintut-joukkue ja joukkueen työskentely
 
-Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin.
+Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin. Lopullinen visualisointi valikoitui sen ulkonäön, kattavuuden, pelillisyyden ja helppolukuisuuden ansiosta. Välineet valikoituivat työn edetessä ja yhtenä pyrkimyksenä oli kasvattaa omaa osaamista Javascript-kuvioiden teossa.
 
 Joukkueeseen kuuluuvat seuraavat henkilöt: 
 
