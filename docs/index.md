@@ -11,9 +11,7 @@ Kuvion tiedot perustuvat [riistaonnettomuustilaston](https://www.stat.fi/tup/kok
 
 Tilasto sisältää tietoja valkohäntäpeurojen, metsäkauriiden, hirvien, metsäpeurojen, kuusipeurojen ja villisikojen kanssa ajetuista kolareista. Katso alla olevasta kuviosta mikä riistaeläin aiheuttaa eniten kolareita kunnittain ja miten onnettomuudet jakautuvat vuoden sisällä eläinlajeittain. Alla on mallikuvat eläimistä tunnistamisen helpottamiseksi. 
 
-
- ![Osalliset eläinlajit](kokoelma.jpg)
- <img src='kokoelma.jpg'></img>
+<img src="kokoelma.jpg" alt="Kuvassa viisi eniten kolareita aiheuttavaa riistaeläintä: Valkohäntäpeura, Metsäkauris, Hirvi, Metsäpeura, Villisika"></img>
 
 Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eniten onnettomuuksia aiheuttavan eläimen kuva paljastuu. Saat samalla lisätietoa kunnassa vuoden 2020 aikana tapahtuneista onnettomuuksista ja niitä aiheuttaneista eläimistä.
 <body>
