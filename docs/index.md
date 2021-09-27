@@ -647,14 +647,7 @@ Vaikka valkohäntäpeuraonnettomuuksia tapahtuu eniten on metsäkauris silti use
 
 Lisäksi oli kolme kuntaa, joissa ei tapahtunut ollenkaan riistaonnettomuuksia vuonna 2020.
 
-Tarina (ilmiöt, strategialiitos, tiedon oivaltaminen)​
-
-Vaikuttavuus (Tämä tukee tarinaa, saavutetaanko visualisoinnilla haluttu vaikutus, tässä kohdassa painotetaan myös näyttävyyttä)​
-
-Selkeys (esitys on ymmärrettävä, voi olla ristiriidassa näyttävän esityksen kanssa – onko saavutettavuus mahdollista saavuttaa)​
-
-
-### Visukintut-joukkue ja kilpailytyö
+### kilpailytyön työstäminen
 
 Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin.
 
@@ -666,7 +659,11 @@ Lopullisen visualisointityön erityinen ansio on se että visualisoinnista on ma
 * Tietoa populaation levinneisyydestä
 * onnettomuuksien ajallisesta jakaumasta
 
+### Saavutettavuus
 
+Olemme kuvanneet visualisoinnin pääsisällön sanallisesti, kaikkiin kuviin on lisätty alt-tekstit ja visualisointi on tehty kokonaan Javascriptillä, joten saavutettavuuskorjaukset voidaan toteuttaa asiantuntijoiden avulla.
+
+### Visukintut-joukkue
 
 Joukkueeseen kuuluuvat seuraavat henkilöt: 
 
