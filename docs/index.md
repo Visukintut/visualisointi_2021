@@ -689,7 +689,7 @@ Työhön käytetyt välineet ovat avoimen lähdekoodin ohjelmia ja lopullinen vi
 
 #### Kuvioiden muodostus Pythonissa
 
-Tarvittavast paketit
+Tarvittavast paketit:
 
 * pandas
 * pyplot
@@ -698,7 +698,7 @@ Tarvittavast paketit
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('C:/Users/matti/Documents/matti/vaikutus/riista/d3js/bubbles/kaavio_kuvat2.csv', sep=";" ,encoding='latin10' )
+df = pd.read_csv('/kaavio_kuvat.csv', sep=";" ,encoding='latin10' )
 df.head() 
 
 
@@ -708,11 +708,8 @@ def kuva(kunta):
     df1=df2.reset_index()
     
     fig, ax = plt.subplots()
-    # First plot the 'Male' bars for every day.
     try:
         ax.bar(df1.index, df1['Valkohäntäpeura'], label='Valkohäntäpeura', color ='#0073B0')
-    # Then plot the 'Female' bars on top, starting at the top of the 'Male'
-    # bars.
     except: 
         pass
     try:
@@ -747,8 +744,8 @@ def kuva(kunta):
     plt.xticks([0, 1, 2, 3, 4, 5 ,6,7, 8, 9 ,10 ,11, 12], ['Tammikuu', 'Helmikuu', 'Maaliskuu', 'Huhtikuu', 'Toukokuu', 'Kesäkuu', 'Heinäkuu', 'Elokuu', 'Syyskuu', 'Lokakuu', 'Marraskuu', 'Joulukuu'],
           rotation=45) 
     
-    plt.savefig('C:/Users/matti/Documents/matti/vaikutus/riista/d3js/bubbles/kaaviot/'+kunta+'.png',bbox_inches='tight')
-    
+plt.savefig('C:/Users/matti/Documents/matti/vaikutus/riista/d3js/bubbles/kaaviot/'+kunta+'.png',bbox_inches='tight')
+'''    
 kuva('Akaa')
 kuva('Alajärvi')
 kuva('Alavieska')
