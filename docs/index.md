@@ -482,6 +482,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
         .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
 		  //.style("left", (d3.mouse(this)[0]+10) + "px")
 		  //.style("top", (d3.mouse(this)[1]-300) + "px")
+	tooltip
 		 .style("left", (window.pageXOffset + matrix.e + 15) + "px")
         	.style("top", (window.pageYOffset + matrix.f - 30) + "px");
 		  
@@ -493,6 +494,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
         	.translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
 		  //.style("left", (d3.mouse(this)[0]+10) + "px")
 		  //.style("top", (d3.mouse(this)[1]-300) + "px")
+	tooltip
 	        .style("left", (window.pageXOffset + matrix.e + 15) + "px")
         .style("top", (window.pageYOffset + matrix.f - 30) + "px");
 })
