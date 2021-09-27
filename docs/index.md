@@ -687,9 +687,11 @@ Työhön käytetyt välineet ovat avoimen lähdekoodin ohjelmia ja lopullinen vi
 
 ### Koodit
 
+#### Visualisoinnin HTML- ja Javascript-koodi
+
 #### Kuvioiden muodostus Pythonissa
 
-Tarvittavast paketit:
+Tarvittavat paketit:
 
 * pandas
 * pyplot
