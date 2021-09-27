@@ -695,7 +695,7 @@ Tarvittavast paketit:
 * pyplot
 
 
-code(
+code('
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -745,8 +745,7 @@ def kuva(kunta):
     plt.yticks([10, 20,  30 ,40,50,60, 70, 80, 90,100,110])
     plt.xticks([0, 1, 2, 3, 4, 5 ,6,7, 8, 9 ,10 ,11, 12], ['Tammikuu', 'Helmikuu', 'Maaliskuu', 'Huhtikuu', 'Toukokuu', 'Kesäkuu', 'Heinäkuu', 'Elokuu', 'Syyskuu', 'Lokakuu', 'Marraskuu', 'Joulukuu'],
           rotation=45) 
-)
-code(
+
 plt.savefig('C:/Users/matti/Documents/matti/vaikutus/riista/d3js/bubbles/kaaviot/'+kunta+'.png',bbox_inches='tight')
 
 kuva('Akaa')
@@ -1041,4 +1040,4 @@ kuva('Ylöjärvi')
 kuva('Ypäjä')
 kuva('Ähtäri')
 kuva('Äänekoski')
-)
+')
