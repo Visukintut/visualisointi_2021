@@ -653,20 +653,23 @@ Vaikuttavuus (Tämä tukee tarinaa, saavutetaanko visualisoinnilla haluttu vaiku
 
 Selkeys (esitys on ymmärrettävä, voi olla ristiriidassa näyttävän esityksen kanssa – onko saavutettavuus mahdollista saavuttaa)​
 
-Kontribuutio nykytilaan (onko uusi avaus, ei vanhan toistoa – voidaan arvioida merkitystä TKn strategiaan)​
 
-### Visukintut-joukkue
+### Visukintut-joukkue ja kilpailytyö
 
 Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin.
 
-Lopullisen visualisointityön erityinen ansio on eläinten kuvien lisääminen, joka mahdollistaa yhdellä silmäyksellä ilmiön kokonaisuuden hahmottamisen. Kevyen pelillisen elemntin kautta on myös mahdollista kokouttaa katsoja etsimään tarkempaa informaatiota ilmiöstä, jota myös tarjotaan visualisoinnisa. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Kuvio antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa. 
+Lopullisen visualisointityön erityinen ansio on se että visualisoinnista on mahdollista saada valtava määrä informaatiota lyhyessä ajassa. Kuvioon on lisätty Kuvat eläimistä, jotka koukuttavat pelillisen kalenteriluukujenavaamis-elemntin kautta katsoja etsimään tarkempaa informaatiota ilmiöstä, jota tarjotaan myös itse visualisoinnisa. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Kuvio antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa:
+
 * Volyymit
 * Sijainnit
 * Suhteellisen riskin joutua onnettomuuteen eri kunnissa
 * Tietoa populaation levinneisyydestä
 * onnettomuuksien ajallisesta jakaumasta
 
+
+
 Joukkueeseen kuuluuvat seuraavat henkilöt: 
+
 * Matti Kokkonen, Yhteiskuntatilastot 
 * Katja Löytynoja, Digitalisaatiopalvelut
 * Mervi Niemi, Taloustilastot
