@@ -694,8 +694,8 @@ Tarvittavast paketit:
 * pandas
 * pyplot
 
-
-'import pandas as pd
+```
+import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('/kaavio_kuvat.csv', sep=";" ,encoding='latin10' )
@@ -1037,4 +1037,5 @@ kuva('Ylivieska')
 kuva('Ylöjärvi')
 kuva('Ypäjä')
 kuva('Ähtäri')
-kuva('Äänekoski')'
+kuva('Äänekoski')
+```
