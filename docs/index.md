@@ -23,7 +23,7 @@ Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eläimen k
 
 
 div.tooltip {	
-    position: relative;
+    position: absolute;
 
     text-align: left;			
     width: 380px;					
