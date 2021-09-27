@@ -483,7 +483,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		  +"<br> <br> <img src='"+d.kaavio+"' alt='testikuva' width='375' height='299'></img>")
 	       
 		.style("left", (d3.mouse(this)[0]-40) + "px")
-		.style("top", (d3.mouse(this)[1]+0) + "px")
+		.style("top", (d3.mouse(this)[1]-50) + "px")
 		//.style("left", (d3.mouse(this)[0]+10) + "px")
 		//.style("top", (d3.mouse(this)[1]+0) + "px")
 
