@@ -693,7 +693,9 @@ Tarvittavast paketit:
 
 * pandas
 * pyplot
-'''
+
+
+code(
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -745,7 +747,7 @@ def kuva(kunta):
           rotation=45) 
     
 plt.savefig('C:/Users/matti/Documents/matti/vaikutus/riista/d3js/bubbles/kaaviot/'+kunta+'.png',bbox_inches='tight')
-'''    
+
 kuva('Akaa')
 kuva('Alajärvi')
 kuva('Alavieska')
@@ -1038,3 +1040,4 @@ kuva('Ylöjärvi')
 kuva('Ypäjä')
 kuva('Ähtäri')
 kuva('Äänekoski')
+)
