@@ -458,7 +458,9 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 	.force("collide", d3.forceCollide(function(d){
 		return radiusScale(d.value)+1;
 	}))
-
+	var div = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
 
 	var tooltip = d3.select("#chart")
       .append("div")
