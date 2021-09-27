@@ -14,7 +14,7 @@ Tilasto sisältää tietoja valkohäntäpeurojen, metsäkauriiden, hirvien, mets
 
  ![Osalliset eläinlajit](kokoelma.jpg)
 
-Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eläimen kuva paljastuu. Saat samalla lisätietoa kunnassa vuoden 2020 aikana tapahtuneista onnettomuuksista ja niitä aiheuttaneista eläimistä.
+Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eniten onnettomuuksia aiheuttavan eläimen kuva paljastuu. Saat samalla lisätietoa kunnassa vuoden 2020 aikana tapahtuneista onnettomuuksista ja niitä aiheuttaneista eläimistä.
 <body>
  <meta charset="utf-8">
 
@@ -640,9 +640,9 @@ function vaihdaluku(color){
 
 Onnettomuudet on sijoitettu kuntien keskipisteisiin ja pallojen koko skaalautuu onnettomuuksien määrän mukaan. Pallot työntävät toisiaan asetetuista keskipisteistä poispäin ja lopulta löytyy tasapaino. Kuvasta nähdään että alueellisesti tarkastellen suurin osa riistaonnettomuuksista vuonna 2020 tapahtui Varsinais-Suomessa, Uudellamaalla ja Pirkanmaalla. Näissä maakunnissa tapahtui yli puolet kaikista riistaonnettomuuksista. Onnettomuuksien määrät Itä- ja Pohjois-Suomessa ovat pieniä verrattuna Lounais- ja Etelä-Suomen onnettomuusmääriin.
 
-Manner-Suomessa tapahtui vuonna 2020 yhteensä 14 004 riistaonnettomuutta. Valkohäntäpeurojen kanssa ajettiin 7 525 kolarit edustivat puolta kaikista onnettomuuksista. Toiseksi eniten kolaroitiin metsäkauriiden kanssa, 5 094 kertaa. Hirvionnettomuuksia tapahtui 1 527 kappaletta.  Metsäpeura-, villisika- ja kuusipeurakolareita tapahtui vuonna 2020 yhteensä 131 kappaletta.
+Manner-Suomessa tapahtui vuonna 2020 yhteensä 14 004 riistaonnettomuutta. Valkohäntäpeurojen kanssa ajetut 7 525 kolaria edustivat puolta kaikista onnettomuuksista. Toiseksi eniten kolaroitiin metsäkauriiden kanssa, 5 094 kertaa. Hirvionnettomuuksia tapahtui 1 527 kappaletta.  Metsäpeura-, villisika- ja kuusipeurakolareita tapahtui vuonna 2020 yhteensä 131 kappaletta.
 
-Vaikka valkohäntäpeuraonnettomuuksia tapahtuu eniten on metsäkauris silti useimmissa kunnissa eniten kolareita aiheuttanut eläin. Kunnittain eniten kolareita aiheuttaneet eläimet jakautuivat seuraavalla tavalla:
+Vaikka valkohäntäpeuraonnettomuuksia tapahtuu eniten, on metsäkauris silti useimmissa kunnissa eniten kolareita aiheuttanut eläin. Kunnittain eniten kolareita aiheuttaneet eläimet jakautuivat seuraavalla tavalla:
 
 * Metsäkauris 140
 * Valkohäntäpeura 75
@@ -654,7 +654,7 @@ Lisäksi oli kolme kuntaa, joissa ei tapahtunut ollenkaan riistaonnettomuuksia v
 
 ### Kontribuutio ja työn vaikuttavuus
 
-Joukkueen mielestä työn erityinen ansio on helppolukuisuus: visualisoinnista on mahdollista saada valtava määrä informaatiota lyhyessä ajassa. Kuvioon lisätyt kuvat eläimistä koukuttavat pelillisen kalenteriluukujenavaamis-elemntin kautta katsoja etsimään ilmiöstä tarkempaa informaatiota, jota tarjotaan erikseen avautuvassa selittävässä tekstikentässä. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Visualisointi antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa:
+Joukkueen mielestä työn erityinen ansio on helppolukuisuus: visualisoinnista on mahdollista saada valtava määrä informaatiota lyhyessä ajassa yhdellä silmäyksellä. Kuvioon lisätyt kuvat eläimistä koukuttavat pelillisen kalenteriluukujenavaamis-elemntin kautta katsojan etsimään ilmiöstä tarkempaa informaatiota, jota tarjotaan erikseen avautuvassa selittävässä tekstikentässä. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Visualisointi antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa:
  
 * Onnettomuuksien kannalta relevantit riistaeläimet
 * Onnettomuuksien volyymit ja sijainnit
