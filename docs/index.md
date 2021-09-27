@@ -655,17 +655,16 @@ Selkeys (esitys on ymmärrettävä, voi olla ristiriidassa näyttävän esitykse
 
 Kontribuutio nykytilaan (onko uusi avaus, ei vanhan toistoa – voidaan arvioida merkitystä TKn strategiaan)​
 
-Toistettavuus (luotettavan visualisoinnin ja tutkimuksen tunnusmerkistöä, ei keksittyä dataa)​
-
-
-
-
 ### Visukintut-joukkue
 
-Mitä välinettä käytit? Miksi?​
-
-Kerro tiimisi työskentelytavoista muutamalla sanalla, listaa tiimisi jäsenet​
 Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin.
+
+Lopullisen visualisointityön erityinen ansio on eläinten kuvien lisääminen, joka mahdollistaa yhdellä silmäyksellä ilmiön kokonaisuuden hahmottamisen. Kevyen pelillisen elemntin kautta on myös mahdollista kokouttaa katsoja etsimään tarkempaa informaatiota ilmiöstä, jota myös tarjotaan visualisoinnisa. Geospatiaalinen ulottuvuus helpottaa ilmiön ymmärtämistä. Kuvio antaa ilmiölle rajat ja tarjoaa siitä monta eri näkökulmaa. 
+* Volyymit
+* Sijainnit
+* Suhteellisen riskin joutua onnettomuuteen eri kunnissa
+* Tietoa populaation levinneisyydestä
+* onnettomuuksien ajallisesta jakaumasta
 
 Joukkueeseen kuuluuvat seuraavat henkilöt: 
 * Matti Kokkonen, Yhteiskuntatilastot 
