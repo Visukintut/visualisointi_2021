@@ -23,6 +23,9 @@ Vie hiiri pallojen päälle tai kosketa niitä mobiilissa sormella ja eläimen k
 
 div.tooltip {	
     position: relative;
+}
+
+   .tooltip .tooltiptext {
     text-align: left;			
     width: 380px;					
     height: 389px;					
@@ -31,7 +34,12 @@ div.tooltip {
     background: black;	
     border: 2px;		
     border-radius: 8px;			
-    pointer-events: none;			
+    pointer-events: none;
+	 /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
 }
 </style>
 
