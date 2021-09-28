@@ -688,8 +688,8 @@ Voit kopioda tämän koodin, liittää sen tekstieditoriin ja tallentaa html-muo
 
 ```
 <body>
+<Luodaan tarvittavat tyylit "html-sivulle" ja haetaan d3js-skripti d3js:n sivulta>
  <meta charset="utf-8">
-
 
  <style>
 
@@ -710,28 +710,18 @@ div.tooltip {
 }
 </style>
 
-
-
-
- <!-- Add 2 buttons-->
-
 <script src="https://d3js.org/d3.v4.min.js">
 </script>
 
-
-
 <div id="chart"> 
 
-
-
-
-
 <script>
+// Varsinainen Javascript-koodi alkaa
 
-//(function test () {
+// Alustetaan kuvion koko pikseleinä
 	var width = 900,
 	height=900;
-//data
+// Tuodaan aineisto
 	var data = [
 {id:'i1', name: 'Akaa', onn:160, onnkvl:66.3625051845707, xk:303.238349769901, yk:571.846271456827, maakunta: '06' ,kuva: 'kuvat/valkohantapeura.png' ,kaavio: 'kaaviot/Akaa.png', altt:'Kunnassa Akaa tapahtui vuonna 2020 yhteensä 160 riistaonnettomuutta. Eniten kolareita aiheutti Valkohäntäpeura.' },
 {id:'i2', name: 'Alajärvi', onn:22, onnkvl:30.0957592339261, xk:317.3470602544, yk:462.626844312414, maakunta: '14' ,kuva: 'kuvat/metsakauris.png' ,kaavio: 'kaaviot/Alajärvi.png', altt:'Kunnassa Alajärvi tapahtui vuonna 2020 yhteensä 22 riistaonnettomuutta. Eniten kolareita aiheutti Metsäkauris.' },
@@ -1030,7 +1020,7 @@ div.tooltip {
 ];
 
 
-//määritellään tooltippi
+//määritellään data, sinänsä turha vaihe, mutta oli tarpeen kun kuviossa oli vielä valintamahdollisuus
 var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.xk, yk: d.yk,value: d.onn,onn: d.onn,onnkvl: d.onnkvl,kaavio: d.kaavio, altt: d.altt } });
 
 //määritellään kuvio
@@ -1046,7 +1036,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 
 	.attr('style', 'position: absolute; opacity: 0;');
 
-
+// Määritellään pallojen "kuvat"
 	var defs = svg.append("defs");
 	defs.append("pattern")
 	.attr("id", "elain")
@@ -1060,31 +1050,12 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 	.attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
 	.attr("xlink:href","IMG_20210707_1458482.jpg")
 
-//skaalataan pallojen koko
+// Skaalataan pallojen koko
 	var radiusScale = d3.scaleSqrt().domain([1,1000]).range([3,60])	
 	
-	//var forceY = d3.forceY(height/2).strength(0.05)
-	
-	// if (d.maakunta=== '01') { return 300
-	//} else if (d.maakunta=== '02') { return 350
-	//} else if (d.maakunta=== '04') { return 400
-	//} else if (d.maakunta=== '05') { return 450
-	//} else if (d.maakunta=== '06') { return 500
-	//} else if (d.maakunta=== '07') { return 550
-	//} else if (d.maakunta=== '08') { return 600
-	//} else if (d.maakunta=== '09') { return 660
-	//} else if (d.maakunta=== '10') { return 700
-	//} else if (d.maakunta=== '11') { return 750
-	//} else if (d.maakunta=== '12') { return 800
-	//} else if (d.maakunta=== '13') { return 850
-	//} else if (d.maakunta=== '14') { return 900
-	//} else if (d.maakunta=== '15') { return 950
-	//} else if (d.maakunta=== '16') { return 1000
-	//} else if (d.maakunta=== '17') { return 1050
-	//} else if (d.maakunta=== '18') { return 1100
-	//} else  return 1150
-	
-	
+// Määritellään palloja vetävien vaaka ja pystysuuntaisten voimien voimakkuus ja kerrotaan montako voimaa tulee. Y-akselilla suurin arvo on alhaalla ja X-akselilla vasemmalla. 
+// Datassa on määritelty kuvion koordinaatiston mukaiset kuntien keskipisteet eli ne on skaalattu 900*900 koordinaatistoon
+
 	var forceX = d3.forceX(function(d) {
 		return d.xk
 	}).strength(1.0)
@@ -1092,47 +1063,17 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		return d.yk
 	}).strength(1.0)
 	
-	
-		
-	//}).strength(0.05)
-
-//	var forceX = d3.forceX(function(d) {
-//	  return d.xk
-//	} else if (d.maakunta=== '02') { return 700
-//	} else if (d.maakunta=== '04') { return 500
-//	} else if (d.maakunta=== '05') { return 550
-//	} else if (d.maakunta=== '06') { return 500
-//	} else if (d.maakunta=== '07') { return 525
-//	} else if (d.maakunta=== '08') { return 500
-//	} else if (d.maakunta=== '09') { return 500
-//	} else if (d.maakunta=== '10') { return 450
-//	} else if (d.maakunta=== '11') { return 400
-//	} else if (d.maakunta=== '12') { return 350
-//	} else if (d.maakunta=== '13') { return 400
-//	} else if (d.maakunta=== '14') { return 400
-//	} else if (d.maakunta=== '15') { return 300
-//	} else if (d.maakunta=== '16') { return 250
-//	} else if (d.maakunta=== '17') { return 200
-//	} else if (d.maakunta=== '18') { return 150
-	
-	
-	
-		
-//	}).strength(0.05)
-
-
+// Määritellään voima-muuttuja	
 	var simulation = d3.forceSimulation()
-	//.force("x", d3.forceX(width/2).strength(0.05))
-
-	.force("x", forceX)
+		.force("x", forceX)
 	.force("y", forceY)
 
-	//.force("y", d3.forceY(width/2).strength(0.05))
+// Annetaan parametri, jolla estetään kasautuminen päällekkäin
 	.force("collide", d3.forceCollide(function(d){
 		return radiusScale(d.value)+1;
 	}))
 
-
+// Määritellään tooltippi
 	var tooltip = d3.select("#chart")
       .append("div")
       .style("opacity", 0)
@@ -1142,6 +1083,7 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
       .style("padding", "10px")
       .style("color", "black")
 
+// Määritellään tooltipin näkyvyys
 	var showTooltip = function(d) {
 	
 		tooltip
@@ -1152,11 +1094,9 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 		.html(d.name + "<br> Onnettomuuksia yhteensä: " + d.onn + "<br> Onnettomuuksia suhteessa liikennesuoritteeseen: " + (Math.round(d.onnkvl * 10) / 10) + "(onnettomuudet / 100 000 ajettua kilometriä) <br> <br> <img src='"+d.kaavio+"' alt='"+d.altt+"' width='375' height='299'></img>")	       
 		.style("left", (d3.mouse(this)[0]+100) + "px")
 		.style("top", (d3.mouse(this)[1]+350) + "px")
-		//.style("left", (d3.mouse(this)[0]+10) + "px")
-		//.style("top", (d3.mouse(this)[1]+0) + "px")
-
-		  
+	  
 	  }
+// Määritellään tooltipin siirtyminen osoittemen mukana
 	  var moveTooltip = function(d) {
 
 		tooltip
@@ -1164,10 +1104,9 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
         
 		 .style("left", (d3.mouse(this)[0]+100) + "px")
 		 .style("top", (d3.mouse(this)[1]+350) + "px")
-
-
-		  
+	  
 	  }
+// Määritellään tooltipin piilottaminen	  
 	  var hideTooltip = function(d) {
 		tooltip
 		  .transition()
@@ -1176,11 +1115,17 @@ var dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.
 	  }
 
 
-	//laitetaan data "jonoon"
-function testi () {
-d3.queue()
-.await(ready)
-function ready (error, datapoints) {
+// Kuvion piirto funktion sisällä, sinänsä turhaa, mutta lisätoiminnallisuuden kannalta olennaista
+		function testi () {
+
+// Laitetaan data "jonoon"
+		d3.queue()
+		.await(ready)
+		
+		
+		function ready (error, datapoints) {
+// Valitaan kuvat palloihin	
+
 		defs.selectAll(".artist-pattern")
 		.data(dataFilter)
 		.enter().append("pattern")
@@ -1200,7 +1145,7 @@ function ready (error, datapoints) {
 			return d.kuva
 		})
 
-		
+// Piirretään pallot ja lisätään niihin kuvat, value määrittää pallon koon		
 		var circles = svg.selectAll(".artist")
 		.data(dataFilter)
 		.enter().append("circle")
@@ -1215,21 +1160,13 @@ function ready (error, datapoints) {
 		.on('mouseover', function(d) {
 			d3.select('#tooltip').style('opacity', 1).text(d)
 		 })
-		 // on('mouseout', function() {
-		//	d3.select('#tooltip').style('opacity', 0)
-		//  })
+// Määritellään palloille mousoverit eli tapahtuma, jossa väri vaihtuu eläimen kuvaksi
 		.on('mouseover', function(d, i) {
 			console.log("mouseover on", this)
 			console.log("mouseover on", d.value)
 
-      // make the mouseover'd element
-      // bigger and red
-
-
-
-
       d3.select(this)
-		//.data(data)
+
         .transition()
         .duration(100)
         .attr('r', function(d) {
@@ -1237,8 +1174,7 @@ function ready (error, datapoints) {
 		})
         .attr('fill', function (d) {
 		return "url(#"+ d.name.replace(" ","-") +")"
-			//.attr('fill', function (d) {
-				//return "url(#elain)"
+
 		})
 
 
@@ -1246,8 +1182,7 @@ function ready (error, datapoints) {
 
     .on('mouseout', function(d, i) {
       console.log("mouseout", this);
-      // return the mouseover'd element
-      // to being smaller and black
+
 
       d3.select(this)
         .transition()
@@ -1255,13 +1190,15 @@ function ready (error, datapoints) {
         .attr('r', function(d) {
 			return radiusScale(d.value)
 		})
-		//poista kommentit, jos halutaan palauttaa sininenn pallura
+		
+// poista kommentit, jos halutaan palauttaa sininenn pallura
         //.attr('fill', 'lightblue');
     })
 
 	  
 		simulation.nodes(dataFilter)
 
+// Määritellään vetovoiman päällä pysyminen
 		.on('tick', ticked)
 		function ticked() {
 			circles
@@ -1275,27 +1212,10 @@ function ready (error, datapoints) {
 
 		}
 
-
-
-
 }}
+// Kutsutaan piirtofunktiota
 testi()
 
-
-
-function vaihdaluku(color){
-	
-
-
-	
-	dataFilter = data.map(function(d){return {kuva: d.kuva, name: d.name, xk: d.xk, yk: d.yk,value: d.onn,onn: d.onn,onnkvl: d.onnkvl,kaavio: d.kaavio} });
-	g.selectAll(".circle")
-	//testi() 
-
- }
-
- 
-//})()
 
 
 
