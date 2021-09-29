@@ -1,9 +1,9 @@
 ## Tilastokeskuksen Visualisointihackathon 15.9.2021 - 30.9.2021
 ### Joukkue Visukintut
 
-Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen Tilastokeskuksen kokeellisiin tilastoihin.
+Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihackathonia varten. Tilastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen Tilastokeskuksen kokeellisiin tilastoihin.
 
-Joukkueemme visualisoi kokeellisista tilastoista Riistaonnettomuustilaston luvut karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen.
+Joukkueemme visualisoi kokeellisista tilastoista riistaonnettomuustilaston luvut karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen.
 
 ### Selvitä alta mihin eläimeen törmätään eniten kunnittain?
 
