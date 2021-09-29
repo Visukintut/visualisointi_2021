@@ -1,7 +1,7 @@
 ## Tilastokeskuksen Visualisointihackathon 15.9.2021 - 30.9.2021
 ### Joukkue Visukintut
 
-Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen TIlastokeskuksen kokeellisiin tilastoihin.
+Tämä on joukkue Visukinttujen kilpailytyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen Tilastokeskuksen kokeellisiin tilastoihin.
 
 Joukkueemme visualisoi kokeellisista tilastoista Riistaonnettomuustilaston luvut karttakuvaa mukailevan pallokuvion avulla. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen.
 
@@ -648,9 +648,9 @@ Vaikka valkohäntäpeuraonnettomuuksia tapahtuu eniten, on metsäkauris silti us
 Lisäksi oli kolme kuntaa, joissa ei tapahtunut ollenkaan riistaonnettomuuksia vuonna 2020.
 
 ### Käytetyt välineet
-Visualisointityö on toteuttu D3js-javascript-kirjastoa hyödyntämällä. Visualisoinnin sisäiset kuviot on tuotettu Pythonin matplotlib-kirjastoa hyödyntämällä ja kuville vaihtoehtoisia tekstejä on ylläpidetty Excel-työkirjoissa. Kuntien keskipisteet on tuotettu Tilastokeskuksen avoimessa rajapinnassa jakamista kuntarajoista Qgis-ohjelmiston avulla. Nämä työvälineet ovat avoimia ja kenen tahansa käytettävissä. 
+Visualisointityö on toteuttu D3js-javascript-kirjastoa hyödyntämällä. Visualisoinnin sisäiset kuviot on tuotettu Pythonin matplotlib-kirjastoa hyödyntämällä ja kuville vaihtoehtoisia tekstejä on ylläpidetty Excel-työkirjoissa. Kuntien keskipisteet on tuotettu Tilastokeskuksen avoimessa rajapinnassa jakamista kuntarajoista Qgis-ohjelmiston avulla.
 
-D3js-Javascript valittiin osittain henkilökohtaisesta kiinnostuksesta, mutta sillä on myös mahdollista tuottaa lähes täysin räätälöitävissä olevia kuvioita, jotka ovat erittäin suorituskykyisiä ja niihin voidaan lisätä interaktiivisuutta. Kuviot ovat vektorigrafiikkaa, joten kuvioita voidaan skaalata vapaasti. Pythonilla oli helppo tuottaa valmiiksi kuntien lisätietokuviot ja Qgissillä saatiin helposti kuntien keskipisteet.
+D3js-Javascript valittiin osittain henkilökohtaisesta kiinnostuksesta, mutta sillä on myös mahdollista tuottaa lähes täysin räätälöitävissä olevia kuvioita, jotka ovat erittäin suorituskykyisiä ja niihin voidaan lisätä interaktiivisuutta. Kuviot ovat vektorigrafiikkaa, joten kuvioita voidaan skaalata vapaasti. Pythonilla oli helppo tuottaa valmiiksi kuntien lisätietokuviot ja Qgissillä saatiin helposti kuntien keskipisteet. Valitut työvälineet ovat myös avoimia ja kenen tahansa käytettävissä.
 
 ### Kontribuutio ja työn vaikuttavuus
 
