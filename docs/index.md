@@ -666,6 +666,12 @@ Joukkueen mielestä työn erityinen ansio on helppolukuisuus: visualisoinnista o
 
 Olemme kuvanneet visualisoinnin pääsisällön sanallisesti, kaikkiin kuviin on lisätty alt-tekstit ja visualisointi on tehty kokonaan Javascriptillä, joten saavutettavuuskorjaukset voidaan toteuttaa asiantuntijoiden avulla.
 
+Visualisointi on pyritty tekemään mahdollisimman saavutettavaksi. Visualisoinnin pääsisältö on kuvattu sanallisesti, kaikkiin kuviin on lisätty alt-tekstit ja visualisointi on tehty kokonaan Javascriptillä, joten loputkin saavutettavuuskorjaukset voitaneen toteuttaa saavutettavuusasiantuntijoiden avustuksella. Visualisoinnin värit on otettu Tilastokeskuksen graafisesta ohjeesta, joten värien kontrasti toisiaan vastaan on testattu.
+
+Alla on esimerkki kuvion "alt-tekstistä":
+
+* Kunnassa Espoo tapahtui vuonna 2020 yhteensä 218 riistaonnettomuutta. Eniten kolareita aiheutti Metsäkauris.
+
 ### Visukintut-joukkue ja joukkueen työskentely
 
 Joukkue kokoontui säännöllisesti noin kaksi kertaa viikossa Hackathonin ajan. Kokeilimme useita eri välineitä ja erilaisia visualisointeja (mm. sankey, circos, tree plots, 3D renderöintiä) eri välineillä (mm. Blender, R, Javascript, Excel). Työtä tehtiin myös iltaisin ja viikonloppuisin. Lopullinen visualisointi valikoitui sen ulkonäön, kattavuuden, pelillisyyden ja helppolukuisuuden ansiosta. Välineet valikoituivat työn edetessä ja yhtenä pyrkimyksenä oli kasvattaa omaa osaamista Javascript-kuvioiden teossa.
@@ -678,7 +684,7 @@ Joukkueeseen kuuluuvat seuraavat henkilöt:
 
 ### Toistettavuus
 
-Työhön käytetyt välineet ovat avoimen lähdekoodin ohjelmia ja lopullinen visualisointi on kenen tahanssa tuotettavissa. Alla on Python-koodi, jolla muodostetaan kuntakohtaiset graafit ja koodi, jolla varsinainen visualisointi muodostetaan selaimeen. Visualisoinnin rakentamiseen tässä muodossa tarvitaan lisäksi valmiit kuntakohtaiset kuviot ja eläinten kuvat.
+Työhön käytetyt välineet ovat avoimen lähdekoodin ohjelmia ja lopullinen visualisointi on vapaasti kenen tahansa tuotettavissa. Alla on Python-koodi, jolla muodostetaan kuntakohtaiset graafit ja koodi, jolla varsinainen visualisointi muodostetaan selaimeen. Visualisoinnin rakentamiseen tässä muodossa tarvitaan lisäksi valmiit kuntakohtaiset kuviot ja eläinten kuvat.
 
 ### Koodit
 
