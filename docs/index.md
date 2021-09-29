@@ -1289,7 +1289,7 @@ def kuva(kunta):
     plt.xticks([0, 1, 2, 3, 4, 5 ,6,7, 8, 9 ,10 ,11, 12], ['Tammikuu', 'Helmikuu', 'Maaliskuu', 'Huhtikuu', 'Toukokuu', 'Kesäkuu', 'Heinäkuu', 'Elokuu', 'Syyskuu', 'Lokakuu', 'Marraskuu', 'Joulukuu'],
           rotation=45) 
 
-plt.savefig('C:/Users/matti/Documents/matti/vaikutus/riista/d3js/bubbles/kaaviot/'+kunta+'.png',bbox_inches='tight')
+plt.savefig('/kaaviot/'+kunta+'.png',bbox_inches='tight')
 
 kuva('Akaa')
 kuva('Alajärvi')
